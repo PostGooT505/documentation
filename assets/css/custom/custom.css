@@ -1,0 +1,37 @@
+.language-switcher {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+#language-select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-size: 16px;
+    background: url('data:image/svg+xml;charset=UTF-8,%3Csvg xmlns%3D%22http://www.w3.org/2000/svg%22 viewBox%3D%220 0 4 5%22%3E%3Cpath fill%3D%22%23ccc%22 d%3D%22M2 0L0 2h4zM2 5L0 3h4z%22/%3E%3C/svg%3E') no-repeat right 10px center;
+    background-color: #fff;
+    background-size: 8px 10px;
+    cursor: pointer;
+}
+
+#language-select option {
+    padding: 10px;
+    background-color: #fff;
+}
+
+#language-select option[lang="en"]::before {
+    content: "🇬🇧 ";
+}
+
+#language-select option[lang="ar"]::before {
+    content: "🇸🇦 ";
+}
+
+#language-select option[lang="fr"]::before {
+    content: "🇫🇷 ";
+}

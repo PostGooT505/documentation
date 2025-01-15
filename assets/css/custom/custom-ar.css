@@ -1,0 +1,11 @@
+html[dir="rtl"] .gx-header .gx-header-items .header-search-box .search-btn,
+[data-header-mode-tool=light] .gx-header-items .header-search-box .search-btn {
+    right: auto;
+    left: 5px;
+}
+
+html[dir="rtl"] .gx-header .gx-header-items .header-search-box,
+[data-header-mode-tool=light] .gx-header-items .header-search-box {
+    margin-left: 0;
+    margin-right: 20px;
+}

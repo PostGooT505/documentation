@@ -6,15 +6,14 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="keywords"
-		content="guide, doc, documentation, api doc, catalog, code documentation, doc, docs, documentation, documentation template, documentation tool, getting started, guide, help, manual, online documentation, reference, specification">
-	<meta name="description" content="Guidex - Online Multipurpose Documentation HTML Template.">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
 	<meta name="author" content="ashishmaraviya">
 
-	<title>Guidex - Online Documentation HTML Template.</title>
+	<title>Alarabi - Documentation</title>
 
 	<!-- App favicon -->
-	<link rel="shortcut icon" href="assets/img/favicon/favicon.ico">
+	<link rel="shortcut icon" href="assets/img/favicon/icon.png">
 
 	<!-- Icon CSS -->
 	<link href="assets/css/vendor/materialdesignicons.min.css" rel="stylesheet">
@@ -26,6 +25,9 @@
 
 	<!-- Main CSS -->
 	<link id="mainCss" href="assets/css/style.css" rel="stylesheet">
+	<link href="assets/css/custom/custom.css" rel="stylesheet">
+	<link href="assets/css/custom/custom-ar.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -41,7 +43,48 @@
 		</div>
 
 		<!-- ==================== HEADER ==================== -->
-		<div id="header"></div>
+		<!-- Header -->
+		<header class="gx-header">
+			<div class="container-fluid">
+				<div class="gx-header-items">
+					<div class="left-header">
+						<a href="index.html" class="gx-toggle-sidebar">
+							<img src="assets/img/logo/logo-light.png" alt="full-logo" class="white-mode-logo">
+							<img src="assets/img/logo/logo-dark.png" alt="full-logo" class="dark-mode-logo">
+						</a>
+						<div class="header-search-box">
+							<div class="header-search-drop">
+								<a href="javascript:void(0)" class="open-search">
+									<i class="ri-search-line"></i>
+									<p class="none">hello</p>
+								</a>
+								<form class="gx-search">
+									<input class="search-input" type="text" placeholder="Search...">
+									<a href="javascript:void(0)" class="search-btn">
+										<i class="ri-search-line"></i>
+										<p class="none">hello</p>
+									</a>
+								</form>
+							</div>
+						</div>
+					</div>
+					<div class="right-header">
+						<a href="javascript:void(0)" class="btn-topic m-r-5">
+							<i class="ri-menu-2-line"></i>
+							<p class="none">hello</p>
+						</a>
+						<div class="right-header language-switcher ">
+							<select class="m-r-5 m-l-5" id="language-select" onchange="changeLanguage(this.value)">
+								<option value="en" selected>English</option>
+								<option value="ar">Arabic</option>
+								<option value="fr">French</option>
+							</select>
+							<a href="#" class="gx-btn-primary">Buy Now</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
 		<!-- ================= END HEADER ================== -->
 
 		<!-- main content -->
@@ -115,9 +158,6 @@
 				</div>
 			</div>
 		</div>
-
-
-
 	</main>
 
 	<!-- Vendor Custom -->
@@ -128,6 +168,8 @@
 	<script src="assets/js/main.js"></script>
 	<!-- Custom js -->
 	<script src="assets/js/custom/contentManager.js"></script>
+	<script src="assets/js/custom/translate.js"></script>
+
 </body>
 
 </html>
