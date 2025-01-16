@@ -9,3 +9,14 @@ html[dir="rtl"] .gx-header .gx-header-items .header-search-box,
     margin-left: 0;
     margin-right: 20px;
 }
+
+html[dir="rtl"] .gx-sb-list .gx-sb-item a>i {
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+
+html[dir="rtl"] .gx-sb-list .gx-sb-item a .drop-arrow {
+    left: 10px;
+    right: auto;
+}
