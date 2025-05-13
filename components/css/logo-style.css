@@ -648,4 +648,68 @@
     border: 1px solid #ccc;
     border-radius: 4px;
   }
-  
+  /* Bloc principal */
+#gx_codeInjection {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 800px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Carte */
+#gx_codeInjection .gx-card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* En-tête */
+#gx_codeInjection .gx-card-header {
+  margin-bottom: 16px;
+  border-bottom: 1px solid #ddd;
+}
+
+#gx_codeInjection .gx-card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Liste des instructions */
+#gx_codeInjection .instruction-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+#gx_codeInjection .instruction-list li {
+  margin-bottom: 12px;
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.6;
+}
+
+/* Images */
+#gx_codeInjection .image-previews {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#gx_codeInjection .post-image {
+  max-width: 60%;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Paragraphe d'avertissement */
+#gx_codeInjection p {
+  margin-top: 16px;
+  font-size: 0.95rem;
+  background-color: #fff3cd;
+  color: #856404;
+  border: 1px solid #ffeeba;
+  padding: 12px;
+  border-radius: 8px;
+}

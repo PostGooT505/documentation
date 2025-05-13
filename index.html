@@ -180,9 +180,13 @@
 													</ul>
 												</li> 
 												<li class="list"><a href="#gx_post" class="gx-page-link drop"><i
-													class="ri-record-circle-line"></i>Post</a></li>  
+													class="ri-record-circle-line"></i>Post</a></li> 
 												<li class="list"><a href="#gx_structure" class="gx-page-link drop"><i
 															class="ri-record-circle-line"></i>Tags</a></li>
+												<li class="list"><a href="#gx_featuredPost " class="gx-page-link drop"><i
+													class="ri-record-circle-line"></i>Feature this post</a></li> 	
+												<li class="list"><a href="#gx_codeInjection " class="gx-page-link drop"><i
+													class="ri-record-circle-line"></i>Code Injection</a></li> 						
 												<li class="list"><a href="#gx_starter" class="gx-page-link drop"><i
 															class="ri-record-circle-line"></i>Uploading a Theme</a></li>
 												<li class="list"><a href="#gx_custom" class="gx-page-link drop"><i
@@ -645,11 +649,9 @@
 						  </div>
 						</div>
 					  </div>
-					
+					<!-- ==================== Tags ======================= -->
 					<div class="gx-block" id="gx_post">
-						
 						<div class="gx-block" id="gx_structure">
-							<!-- ==================== File Structure ==================== -->
 							<div class="gx-card gx-page-block">
 								<div class="gx-card-header header-575">
 									<h4 class="gx-card-title">Tags</h4>
@@ -678,178 +680,220 @@
 										</div></div> 
 									  </div> 
 						        </div>
-								<div class="gx-card-content">
-									<div class="file-structure">
-										<ul class="gx-main-structure">
-											<li><a href="javascript:void(0)" class="gx-struct-drop"><i class="ri-arrow-up-s-line"></i><i
-														class="ri-folder-open-line"></i>assets</a>
-												<ul class="gx-sub">
-													<li><a href="javascript:void(0)" class="gx-struct-drop"><i class="ri-arrow-up-s-line"></i><i
-																class="ri-folder-4-line"></i>css</a>
-														<ul class="gx-hide">
-															<li><a href="javascript:void(0)" class="gx-struct-drop"><i
-																		class="ri-arrow-up-s-line"></i><i class="ri-folder-4-line"></i>vendor</a>
-																<ul class="gx-hide">
-																	<li><i class="ri-file-list-2-line"></i>bootstrap.css
-																	</li>
-																	<li><i class="ri-file-list-2-line"></i>animate.css
-																	</li>
-																	<li><i class="ri-file-list-2-line"></i>remixicon.css
-																	</li>
-																	<li><i class="ri-file-list-2-line"></i>materialdesignicon.css
-																	</li>
-																</ul>
-															</li>
-														</ul>
-														<ul class="gx-hide">
-															<li><i class="ri-file-list-2-line"></i>dark.css</li>
-															<li><i class="ri-file-list-2-line"></i>style.css</li>
-														</ul>
+							</div>
+					<!-- ==================== code featured post  ==================== -->
+					<div class="gx-block" id="gx_featuredPost"> 
+						<div class="gx-card gx-page-block">
+						  <div class="gx-card-header header-575">
+							<h4 class="gx-card-title">Feature this post</h4>
+						  </div>
+					  
+						  <ul class="instruction-list">
+							<li>🖱️ Accédez au menu <strong>Posts</strong> dans la barre latérale gauche.</li>
+							<li>➕ Cliquez sur <strong>New Post</strong> en haut à droite pour ouvrir l'éditeur de création de publication.</li>
+							<li>🖼️ Repérez l'option radio <strong>"Feature this post"</strong>.</li>
+							<li>📌 Cette option permet de mettre en avant la publication, en la plaçant en première position sur la page d’accueil.</li>
+						  </ul>
+					  
+						  <div class="image-previews">
+							<img src="./components/images/post2.png" alt="Aperçu de la création de post" class="post-image" />
+						  </div>
+						</div>
+					  </div>
+					<!-- ==================== code injection  ==================== -->
+					  <div class="gx-block" id="gx_codeInjection"> 
+						<div class="gx-card gx-page-block">
+						  <div class="gx-card-header header-575">
+							<h4 class="gx-card-title">Code Injection</h4>
+						  </div>
+					  
+						  <ul class="instruction-list">
+							<li>🖱️ Accédez au menu <strong>Posts</strong> dans la barre latérale gauche.</li>
+							<li>➕ Cliquez sur <strong>New Post</strong> en haut à droite pour ouvrir l'éditeur de création de publication.</li>
+							<li>🖼️ Repérez l'option radio <strong>"Code Injection"</strong>.</li>
+							<li>📌 Cette option permet aux utilisateurs avancés d’injecter du code personnalisé (HTML, JavaScript, etc.) dans le thème. Cela peut être utile pour ajouter des fonctionnalités, mais présente un risque de sécurité si elle est mal utilisée.</li>
+						  </ul>					  
+						  <div class="image-previews">
+							<img src="./components/images/featurepost.png" alt="Aperçu de la création de post" class="post-image" />
+							<img src="./components/images/code injection2.png" alt="Aperçu de la création de post" class="post-image" />
+
+						  </div>
+						</div>
+					  </div>
+						
+					</div>
+				</div>    <!--   fin menu -->
+				<!-- =================les fils===================== -->
+				<div class="gx-card-content">
+					<div class="file-structure">
+						<ul class="gx-main-structure">
+							<li><a href="javascript:void(0)" class="gx-struct-drop"><i class="ri-arrow-up-s-line"></i><i
+										class="ri-folder-open-line"></i>assets</a>
+								<ul class="gx-sub">
+									<li><a href="javascript:void(0)" class="gx-struct-drop"><i class="ri-arrow-up-s-line"></i><i
+												class="ri-folder-4-line"></i>css</a>
+										<ul class="gx-hide">
+											<li><a href="javascript:void(0)" class="gx-struct-drop"><i
+														class="ri-arrow-up-s-line"></i><i class="ri-folder-4-line"></i>vendor</a>
+												<ul class="gx-hide">
+													<li><i class="ri-file-list-2-line"></i>bootstrap.css
+													</li>
+													<li><i class="ri-file-list-2-line"></i>animate.css
+													</li>
+													<li><i class="ri-file-list-2-line"></i>remixicon.css
+													</li>
+													<li><i class="ri-file-list-2-line"></i>materialdesignicon.css
 													</li>
 												</ul>
-												<ul class="gx-sub">
-													<li><a href="javascript:void(0)" class="gx-struct-drop"><i class="ri-arrow-up-s-line"></i><i
-																class="ri-folder-4-line"></i>Fonts</a>
-														<ul class="gx-hide">
-															<li><a href="javascript:void(0)" class="gx-struct-drop"><i
-																		class="ri-folder-4-line"></i>icon</a></li>
-															<li><a href="javascript:void(0)" class="gx-struct-drop"><i
-																		class="ri-folder-4-line"></i>nunito</a></li>
-															<li><a href="javascript:void(0)" class="gx-struct-drop"><i
-																		class="ri-folder-4-line"></i>poppins</a></li>
-														</ul>
-													</li>
-												</ul>
-												<ul class="gx-sub">
-													<li><a href="javascript:void(0)" class="gx-struct-drop"><i class="ri-arrow-up-s-line"></i><i
-																class="ri-folder-4-line"></i>img</a>
-														<ul class="gx-hide">
-															<li><a href="javascript:void(0)" class="gx-struct-drop"><i
-																		class="ri-arrow-up-s-line"></i><i class="ri-folder-4-line"></i>favicon</a>
-																<ul class="gx-hide">
-																	<li><i class="ri-image-fill"></i>favicon.ico</li>
-																	<li><i class="ri-image-2-line"></i>favicon.png</li>
-																</ul>
-															</li>
-														</ul>
-														<ul class="gx-hide">
-															<li><a href="javascript:void(0)" class="gx-struct-drop"><i
-																		class="ri-arrow-up-s-line"></i><i class="ri-folder-4-line"></i>features</a>
-																<ul class="gx-hide">
-																	<li><i class="ri-image-2-line"></i>1.png</li>
-																	<li><i class="ri-image-2-line"></i>2.png</li>
-																	<li><i class="ri-image-2-line"></i>3.png</li>
-																	<li><i class="ri-image-2-line"></i>4.png</li>
-																</ul>
-															</li>
-														</ul>
-														<ul class="gx-hide">
-															<li><a href="javascript:void(0)" class="gx-struct-drop"><i
-																		class="ri-arrow-up-s-line"></i><i class="ri-folder-4-line"></i>logo</a>
-																<ul class="gx-hide">
-																	<li><i class="ri-image-2-line"></i>logo.png</li>
-																</ul>
-															</li>
-														</ul>
-														<ul class="gx-hide">
-															<li><a href="javascript:void(0)" class="gx-struct-drop"><i
-																		class="ri-arrow-up-s-line"></i><i class="ri-folder-4-line"></i>sidebar</a>
-																<ul class="gx-hide">
-																	<li><i class="ri-image-line"></i>1.jpg</li>
-																	<li><i class="ri-image-line"></i>2.jpg</li>
-																	<li><i class="ri-image-line"></i>3.jpg</li>
-																	<li><i class="ri-image-line"></i>4.jpg</li>
-																</ul>
-															</li>
-														</ul>
-														<ul class="gx-hide">
-															<li><a href="javascript:void(0)" class="gx-struct-drop"><i
-																		class="ri-arrow-up-s-line"></i><i class="ri-folder-4-line"></i>tools</a>
-																<ul class="gx-hide">
-																	<li><i class="ri-image-2-line"></i>bg-0.png</li>
-																	<li><i class="ri-image-2-line"></i>bg-1.png</li>
-																	<li><i class="ri-image-2-line"></i>bg-2.png</li>
-																	<li><i class="ri-image-2-line"></i>bg-3.png</li>
-																	<li><i class="ri-image-2-line"></i>bg-4.png</li>
-																</ul>
-															</li>
-														</ul>
-													</li>
-												</ul>
-												<ul class="gx-sub">
-													<li><a href="javascript:void(0)" class="gx-struct-drop"><i class="ri-arrow-up-s-line"></i><i
-																class="ri-folder-4-line"></i>js</a>
-														<ul class="gx-hide">
-															<li><a href="javascript:void(0)" class="gx-struct-drop"><i
-																		class="ri-arrow-up-s-line"></i><i class="ri-folder-4-line"></i>vendor</a>
-																<ul class="gx-hide">
-																	<li><i class="ri-file-list-2-line"></i>bootstrap.js
-																	</li>
-																	<li><i class="ri-file-list-2-line"></i>jquery-3.6.4.min.js
-																	</li>
-																</ul>
-															</li>
-															<li><i class="ri-file-list-2-line"></i>main.js</li>
-														</ul>
-													</li>
-												</ul>
-												<ul class="gx-sub">
-													<li><a href="javascript:void(0)" class="gx-struct-drop"><i class="ri-arrow-up-s-line"></i><i
-																class="ri-folder-4-line"></i>scss</a>
-														<ul class="gx-hide">
-															<li><a href="javascript:void(0)" class="gx-struct-drop"><i
-																		class="ri-arrow-up-s-line"></i><i class="ri-folder-4-line"></i>base</a>
-																<ul class="gx-hide">
-																	<li><i class="ri-file-list-2-line"></i>_typography.scss
-																	</li>
-																</ul>
-															</li>
-															<li><a href="javascript:void(0)" class="gx-struct-drop"><i
-																		class="ri-arrow-up-s-line"></i><i
-																		class="ri-folder-4-line"></i>components</a>
-																<ul class="gx-hide">
-																	<li><i class="ri-file-list-2-line"></i>_breadcrumb.scss
-																	</li>
-																	<li><i class="ri-file-list-2-line"></i>_common.scss
-																	</li>
-																	<li><i class="ri-file-list-2-line"></i>_sidebar.scss
-																	</li>
-																	<li><i class="ri-file-list-2-line"></i>_tools-sidebar.scss
-																	</li>
-																</ul>
-															</li>
-															<li><a href="javascript:void(0)" class="gx-struct-drop"><i
-																		class="ri-arrow-up-s-line"></i><i class="ri-folder-4-line"></i>layouts</a>
-																<ul class="gx-hide">
-																	<li><i class="ri-file-list-2-line"></i>_cards.scss
-																	</li>
-																</ul>
-															</li>
-															<li><a href="javascript:void(0)" class="gx-struct-drop"><i
-																		class="ri-arrow-up-s-line"></i><i class="ri-folder-4-line"></i>utilities</a>
-																<ul class="gx-hide">
-																	<li><i class="ri-file-list-2-line"></i>_mixins.scss
-																	</li>
-																	<li><i class="ri-file-list-2-line"></i>_variables.scss
-																	</li>
-																</ul>
-															</li>
-														</ul>
-														<ul class="gx-hide">
-															<li><i class="ri-file-list-2-line"></i>dark.scss</li>
-															<li><i class="ri-file-list-2-line"></i>style.scss</li>
-														</ul>
-													</li>
-												</ul>
-											</li>
-											<li><a href="javascript:void(0)"><i class="ri-file-text-line"></i>index.html</a>
 											</li>
 										</ul>
-									</div>
-								</div>
-							</div>							
-						</div>
-					</div> 
+										<ul class="gx-hide">
+											<li><i class="ri-file-list-2-line"></i>dark.css</li>
+											<li><i class="ri-file-list-2-line"></i>style.css</li>
+										</ul>
+									</li>
+								</ul>
+								<ul class="gx-sub">
+									<li><a href="javascript:void(0)" class="gx-struct-drop"><i class="ri-arrow-up-s-line"></i><i
+												class="ri-folder-4-line"></i>Fonts</a>
+										<ul class="gx-hide">
+											<li><a href="javascript:void(0)" class="gx-struct-drop"><i
+														class="ri-folder-4-line"></i>icon</a></li>
+											<li><a href="javascript:void(0)" class="gx-struct-drop"><i
+														class="ri-folder-4-line"></i>nunito</a></li>
+											<li><a href="javascript:void(0)" class="gx-struct-drop"><i
+														class="ri-folder-4-line"></i>poppins</a></li>
+										</ul>
+									</li>
+								</ul>
+								<ul class="gx-sub">
+									<li><a href="javascript:void(0)" class="gx-struct-drop"><i class="ri-arrow-up-s-line"></i><i
+												class="ri-folder-4-line"></i>img</a>
+										<ul class="gx-hide">
+											<li><a href="javascript:void(0)" class="gx-struct-drop"><i
+														class="ri-arrow-up-s-line"></i><i class="ri-folder-4-line"></i>favicon</a>
+												<ul class="gx-hide">
+													<li><i class="ri-image-fill"></i>favicon.ico</li>
+													<li><i class="ri-image-2-line"></i>favicon.png</li>
+												</ul>
+											</li>
+										</ul>
+										<ul class="gx-hide">
+											<li><a href="javascript:void(0)" class="gx-struct-drop"><i
+														class="ri-arrow-up-s-line"></i><i class="ri-folder-4-line"></i>features</a>
+												<ul class="gx-hide">
+													<li><i class="ri-image-2-line"></i>1.png</li>
+													<li><i class="ri-image-2-line"></i>2.png</li>
+													<li><i class="ri-image-2-line"></i>3.png</li>
+													<li><i class="ri-image-2-line"></i>4.png</li>
+												</ul>
+											</li>
+										</ul>
+										<ul class="gx-hide">
+											<li><a href="javascript:void(0)" class="gx-struct-drop"><i
+														class="ri-arrow-up-s-line"></i><i class="ri-folder-4-line"></i>logo</a>
+												<ul class="gx-hide">
+													<li><i class="ri-image-2-line"></i>logo.png</li>
+												</ul>
+											</li>
+										</ul>
+										<ul class="gx-hide">
+											<li><a href="javascript:void(0)" class="gx-struct-drop"><i
+														class="ri-arrow-up-s-line"></i><i class="ri-folder-4-line"></i>sidebar</a>
+												<ul class="gx-hide">
+													<li><i class="ri-image-line"></i>1.jpg</li>
+													<li><i class="ri-image-line"></i>2.jpg</li>
+													<li><i class="ri-image-line"></i>3.jpg</li>
+													<li><i class="ri-image-line"></i>4.jpg</li>
+												</ul>
+											</li>
+										</ul>
+										<ul class="gx-hide">
+											<li><a href="javascript:void(0)" class="gx-struct-drop"><i
+														class="ri-arrow-up-s-line"></i><i class="ri-folder-4-line"></i>tools</a>
+												<ul class="gx-hide">
+													<li><i class="ri-image-2-line"></i>bg-0.png</li>
+													<li><i class="ri-image-2-line"></i>bg-1.png</li>
+													<li><i class="ri-image-2-line"></i>bg-2.png</li>
+													<li><i class="ri-image-2-line"></i>bg-3.png</li>
+													<li><i class="ri-image-2-line"></i>bg-4.png</li>
+												</ul>
+											</li>
+										</ul>
+									</li>
+								</ul>
+								<ul class="gx-sub">
+									<li><a href="javascript:void(0)" class="gx-struct-drop"><i class="ri-arrow-up-s-line"></i><i
+												class="ri-folder-4-line"></i>js</a>
+										<ul class="gx-hide">
+											<li><a href="javascript:void(0)" class="gx-struct-drop"><i
+														class="ri-arrow-up-s-line"></i><i class="ri-folder-4-line"></i>vendor</a>
+												<ul class="gx-hide">
+													<li><i class="ri-file-list-2-line"></i>bootstrap.js
+													</li>
+													<li><i class="ri-file-list-2-line"></i>jquery-3.6.4.min.js
+													</li>
+												</ul>
+											</li>
+											<li><i class="ri-file-list-2-line"></i>main.js</li>
+										</ul>
+									</li>
+								</ul>
+								<ul class="gx-sub">
+									<li><a href="javascript:void(0)" class="gx-struct-drop"><i class="ri-arrow-up-s-line"></i><i
+												class="ri-folder-4-line"></i>scss</a>
+										<ul class="gx-hide">
+											<li><a href="javascript:void(0)" class="gx-struct-drop"><i
+														class="ri-arrow-up-s-line"></i><i class="ri-folder-4-line"></i>base</a>
+												<ul class="gx-hide">
+													<li><i class="ri-file-list-2-line"></i>_typography.scss
+													</li>
+												</ul>
+											</li>
+											<li><a href="javascript:void(0)" class="gx-struct-drop"><i
+														class="ri-arrow-up-s-line"></i><i
+														class="ri-folder-4-line"></i>components</a>
+												<ul class="gx-hide">
+													<li><i class="ri-file-list-2-line"></i>_breadcrumb.scss
+													</li>
+													<li><i class="ri-file-list-2-line"></i>_common.scss
+													</li>
+													<li><i class="ri-file-list-2-line"></i>_sidebar.scss
+													</li>
+													<li><i class="ri-file-list-2-line"></i>_tools-sidebar.scss
+													</li>
+												</ul>
+											</li>
+											<li><a href="javascript:void(0)" class="gx-struct-drop"><i
+														class="ri-arrow-up-s-line"></i><i class="ri-folder-4-line"></i>layouts</a>
+												<ul class="gx-hide">
+													<li><i class="ri-file-list-2-line"></i>_cards.scss
+													</li>
+												</ul>
+											</li>
+											<li><a href="javascript:void(0)" class="gx-struct-drop"><i
+														class="ri-arrow-up-s-line"></i><i class="ri-folder-4-line"></i>utilities</a>
+												<ul class="gx-hide">
+													<li><i class="ri-file-list-2-line"></i>_mixins.scss
+													</li>
+													<li><i class="ri-file-list-2-line"></i>_variables.scss
+													</li>
+												</ul>
+											</li>
+										</ul>
+										<ul class="gx-hide">
+											<li><i class="ri-file-list-2-line"></i>dark.scss</li>
+											<li><i class="ri-file-list-2-line"></i>style.scss</li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li><a href="javascript:void(0)"><i class="ri-file-text-line"></i>index.html</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+	        </div>				
 						<!-- Customization -->
 						<div class="gx-block" id="gx_custom">
 							<div id="customization"></div>
@@ -883,7 +927,6 @@
 				<!-- ==================== core features ==================== -->
 				<!-- <div class="gx-card-header header-575">
 					<h4 class="gx-card-title">Core Features</h4>
-					
 				</div>
 				<div class="gx-card-content">
 					<div class="intro">
@@ -977,5 +1020,4 @@
 	<script src="assets/js/custom/translate.js"></script>
 
 </body>
-
 </html>
