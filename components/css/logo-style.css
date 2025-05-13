@@ -713,3 +713,70 @@
   padding: 12px;
   border-radius: 8px;
 }
+/* --------------------navigation-------------- */
+#gx_navigation {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 800px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+#gx_navigation .gx-card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+#gx_navigation .gx-card-header {
+  margin-bottom: 16px;
+  border-bottom: 1px solid #ddd;
+}
+
+#gx_navigation .gx-card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+#gx_navigation .instruction-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+#gx_navigation .instruction-list li {
+  margin-bottom: 12px;
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.6;
+}
+
+#gx_navigation .instruction-list code {
+  background-color: #eee;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: monospace;
+  font-size: 0.95rem;
+  color: #000;
+}
+
+#gx_navigation .image-previews {
+  margin-top: 20px;
+  
+}
+
+#gx_navigation .menu-image {
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(136, 136, 136, 0.85);
+  width: 65%;
+  
+}
+#gx_navigation .menu-image1 {
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(136, 136, 136, 0.85);
+  width: 65%;
+  height: 500px;
+  
+}
