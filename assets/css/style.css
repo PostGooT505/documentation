@@ -1,29 +1,6 @@
 @charset "UTF-8";
 
-/*-----------------------------------------------------------------------------------
 
-    Item Name: Guidex - Online Documentation HTML Template.
-    Author: ashishmaraviya
-    Version: 3.1
-    Copyright 2024
-
------------------------------------------------------------------------------------*/
-/*---------------------------------------------------------------------------------
-    Included CSS INDEX
------------------------------------------------------------------------------------
-
-01. Typography
-02. Components
-    - Common
-    - Sidebar
-    - Header
-    - Tools-sidebar
-
-03. Layout 
-    - Cards
-
------------------------------------------------------------------------------------*/
-/*=== Typography ===*/
 /*--  Poppins font  --*/
 @font-face {
   font-family: "Poppins, sans-serif";
@@ -2013,7 +1990,7 @@ Tools sidebar
 
 .gx-header .gx-header-items .left-header a img,
 [data-header-mode-tool=light] .gx-header-items .left-header a img {
-  width: 100px;
+  width: 200px;
 }
 
 .gx-header .gx-header-items .header-search-box,
@@ -2989,7 +2966,8 @@ button.nav-link i {
 }
 
 .gx-page-block ul li {
-  padding: 10px 0;
+  padding: 10px;
+  padding-left: 20px;
 }
 
 .nav-tabs .nav-item {
@@ -3169,5 +3147,3 @@ button.nav-link i {
     display: none !important;
   }
 }
-
-/*# sourceMappingURL=style.css.map */
