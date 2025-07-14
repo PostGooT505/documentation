@@ -2861,7 +2861,11 @@ button.nav-link i {
 }
 
 .gx-card .gx-card-content {
-  padding: 24px;
+  /* padding: 24px; */
+}
+
+.gx-card .gx-card-content img {
+  max-width: 100%;
 }
 
 .gx-card .gx-card-content .note {
